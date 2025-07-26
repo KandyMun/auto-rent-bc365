@@ -1,4 +1,4 @@
-table 61005 MAMAAutoReservation
+table 61005 "MAMA_AutoReservation"
 {
     DataClassification = ToBeClassified;
 

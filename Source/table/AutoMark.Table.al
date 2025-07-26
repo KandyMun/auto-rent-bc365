@@ -1,4 +1,4 @@
-table 61003 MAMAAutoMark
+table 61003 "MAMA_AutoMark"
 {
 
     fields

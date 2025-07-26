@@ -1,4 +1,4 @@
-table 61004 MAMAAuto
+table 61004 "MAMA_Auto"
 {
 
     fields

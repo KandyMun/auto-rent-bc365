@@ -1,8 +1,8 @@
-page 61000 MAMAAutoSetupPage
+page 61000 "MAMA_AutoSetupPage"
 {
     PageType = Card;
     ApplicationArea = All;
-    SourceTable = MAMAAutoSetup;
+    SourceTable = MAMA_AutoSetup;
 
     layout
     {

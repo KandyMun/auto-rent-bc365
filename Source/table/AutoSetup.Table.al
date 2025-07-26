@@ -1,4 +1,4 @@
-table 61000 MAMAAutoSetup
+table 61000 "MAMA_AutoSetup"
 {
     Caption = 'Auto Setup';
 
@@ -25,7 +25,7 @@ table 61000 MAMAAutoSetup
         {
             Caption = 'Nuomos kortelės serija';
             ToolTip = '';
-            TableRelation = Location;
+            TableRelation = Location.Code;
         }
     }
 

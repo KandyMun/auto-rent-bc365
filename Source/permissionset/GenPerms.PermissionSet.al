@@ -1,23 +1,23 @@
-permissionset 61000 MAMAGenPerms
+permissionset 61000 "MAMA_GenPerms"
 {
     Assignable = true;
-    Permissions = tabledata MAMAAutoSetup=RIMD,
-        table MAMAAutoSetup=X,
-        page MAMAAutoSetupPage=X,
-        tabledata MAMAAutoMark=RIMD,
-        table MAMAAutoMark=X,
-        tabledata MAMAAutoModel=RIMD,
-        table MAMAAutoModel=X,
-        tabledata MAMAAuto=RIMD,
-        table MAMAAuto=X,
-        tabledata MAMAAutoReservation=RIMD,
-        table MAMAAutoReservation=X,
-        tabledata MAMAAutoDamage=RIMD,
-        table MAMAAutoDamage=X,
-        tabledata MAMAAutoRentHeader=RIMD,
-        table MAMAAutoRentHeader=X,
-        tabledata MAMAAutoRentLine=RIMD,
-        table MAMAAutoRentLine=X,
-        tabledata MAMAAutoRentDamage=RIMD,
-        table MAMAAutoRentDamage=X;
+    Permissions = tabledata MAMA_Auto=RIMD,
+        tabledata MAMA_AutoDamage=RIMD,
+        tabledata MAMA_AutoMark=RIMD,
+        tabledata MAMA_AutoModel=RIMD,
+        tabledata MAMA_AutoRentDamage=RIMD,
+        tabledata MAMA_AutoRentHeader=RIMD,
+        tabledata MAMA_AutoRentLine=RIMD,
+        tabledata MAMA_AutoReservation=RIMD,
+        tabledata MAMA_AutoSetup=RIMD,
+        table MAMA_Auto=X,
+        table MAMA_AutoDamage=X,
+        table MAMA_AutoMark=X,
+        table MAMA_AutoModel=X,
+        table MAMA_AutoRentDamage=X,
+        table MAMA_AutoRentHeader=X,
+        table MAMA_AutoRentLine=X,
+        table MAMA_AutoReservation=X,
+        table MAMA_AutoSetup=X,
+        page MAMA_AutoSetupPage=X;
 }

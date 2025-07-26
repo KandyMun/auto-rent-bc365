@@ -1,4 +1,4 @@
-table 61008 MAMAAutoRentLine
+table 61008 "MAMA_AutoRentLine"
 {
     DataClassification = ToBeClassified;
 

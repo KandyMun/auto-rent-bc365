@@ -1,4 +1,4 @@
-table 61001 MAMAAutoModel
+table 61001 "MAMA_AutoModel"
 {
 
     fields

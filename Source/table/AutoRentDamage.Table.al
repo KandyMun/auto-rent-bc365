@@ -1,4 +1,4 @@
-table 61009 MAMAAutoRentDamage
+table 61009 "MAMA_AutoRentDamage"
 {
     DataClassification = ToBeClassified;
 
