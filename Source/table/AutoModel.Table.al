@@ -1,23 +1,25 @@
 table 61001 "MAMA_AutoModel"
 {
+    Caption = 'Auto Mark';
 
     fields
     {
         field(1; ModelCode; Code[10])
         {
-            Caption = 'Automobile No. Series';
-            ToolTip = '';
+            Caption = 'Model Code';
+            ToolTip = 'Modelio identifikacinis kodas';
+            TableRelation = MAMA_AutoMark;
 
         }
         field(2; "Code"; Code[10])
         {
-            Caption = 'Automobile No. Series';
-            ToolTip = '';
+            Caption = 'Kodas';
+            ToolTip = 'Modelio identifikacinis kodas';
 
         }
         field(3; Description; Text[30])
         {
-            Caption = 'Automobile No. Series';
+            Caption = 'Aprašymas';
             ToolTip = 'Nurodomas automobilio aprašas';
 
         }
