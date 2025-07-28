@@ -1,26 +1,26 @@
-table 61003 "MAMA_AutoMark"
+table 61103 "MAMA_AutoMark"
 {
 
+    Caption = 'Auto Mark';
     fields
     {
-        field(1; "Code"; Code[10])
+        field(1; "Mark Code"; Code[20])
         {
             Caption = 'Kodas';
             ToolTip = 'Identifikacinis kodas';
+            NotBlank = true;
         }
-        field(2; Description; Blob)
+        field(2; Description; Text[60])
         {
             Caption = 'Aprašas';
             ToolTip = 'Nurodomas automobilio aprašas';
+            NotBlank = true;
         }
-
-        //You might want to add fields here
-
     }
 
     keys
     {
-        key(PK; Code)
+        key(PK; "Mark Code")
         {
             Clustered = true;
         }

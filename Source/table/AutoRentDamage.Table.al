@@ -1,15 +1,15 @@
-table 61009 "MAMA_AutoRentDamage"
+table 61109 "MAMA_AutoRentDamage"
 {
     DataClassification = ToBeClassified;
 
     fields
     {
-        field(1; DocNr; Integer)
+        field(1; "Document No."; Code[20])
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(2; RowNr; Integer)
+        field(2; "Row No."; Code[20])
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
@@ -29,13 +29,12 @@ table 61009 "MAMA_AutoRentDamage"
 
     keys
     {
-        key(PK1; DocNr)
+        key(PK1; "Document No.")
         {
             Clustered = true;
         }
-        key(PK2; RowNr)
+        key(PK2; "Row No.")
         {
-            Unique = true;
         }
     }
 

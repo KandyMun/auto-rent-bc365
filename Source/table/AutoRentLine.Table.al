@@ -1,15 +1,15 @@
-table 61008 "MAMA_AutoRentLine"
+table 61108 "MAMA_AutoRentLine"
 {
     DataClassification = ToBeClassified;
 
     fields
     {
-        field(1; DocNr; Integer)
+        field(1; "Document No."; Code[20])
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(2; RowNr; Integer)
+        field(2; "Row No."; Code[20])
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
@@ -19,7 +19,7 @@ table 61008 "MAMA_AutoRentLine"
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(4; Nr; Integer)
+        field(4; "No."; Code[20])
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
@@ -48,7 +48,7 @@ table 61008 "MAMA_AutoRentLine"
 
     keys
     {
-        key(PK; DocNr)
+        key(PK; "Document No.")
         {
             Clustered = true;
         }

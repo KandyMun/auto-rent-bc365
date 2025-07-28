@@ -1,4 +1,4 @@
-permissionset 61000 "MAMA_GenPerms"
+permissionset 61100 "MAMA_GenPerms"
 {
     Assignable = true;
     Permissions = tabledata MAMA_Auto=RIMD,

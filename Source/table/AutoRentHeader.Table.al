@@ -1,4 +1,4 @@
-table 61007 "MAMA_AutoRentHeader"
+table 61107 "MAMA_AutoRentHeader"
 {
 
     fields

@@ -1,4 +1,4 @@
-page 61000 "MAMA_AutoSetupPage"
+page 61100 "MAMA_AutoSetupPage"
 {
     PageType = Card;
     ApplicationArea = All;
@@ -10,15 +10,15 @@ page 61000 "MAMA_AutoSetupPage"
         {
             group(General)
             {
-                field(AddonLocation; Rec.AddonLocation)
+                field(AddonLocation; Rec."Extras Location")
                 {
                     ToolTip = 'Specifies the value of the Nuomos kortelės serija field.', Comment = '%';
                 }
-                field(AutoSeries; Rec.AutoSeries)
+                field("Automobile No. Series"; Rec."Automobile No. Series")
                 {
                     ToolTip = 'Specifies the value of the Automobile No. Series field.', Comment = '%';
                 }
-                field(RentCardSeries; Rec.RentCardSeries)
+                field(RentCardSeries; Rec."Rent Card No. Series")
                 {
                     ToolTip = 'Specifies the value of the Nuomos kortelės serija field.', Comment = '%';
                 }

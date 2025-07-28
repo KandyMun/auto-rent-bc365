@@ -1,30 +1,30 @@
-table 61005 "MAMA_AutoReservation"
+table 61105 "MAMA_AutoReservation"
 {
     DataClassification = ToBeClassified;
 
     fields
     {
-        field(1; AutoNr; Integer)
+        field(1; "Auto No."; Integer)
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(2; RowNr; Integer)
+        field(2; "Row No."; Integer)
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(3; ClientNr; Integer)
+        field(3; "Client No."; Integer)
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(4; ReservedFrom; Date)
+        field(4; "Reserved From"; Date)
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
         }
-        field(5; ReservedTo; Date)
+        field(5; "Reserved Until"; Date)
         {
             Caption = 'MyField';
             DataClassification = ToBeClassified;
@@ -34,15 +34,15 @@ table 61005 "MAMA_AutoReservation"
 
     keys
     {
-        key(PK1; AutoNr)
+        key(PK1; "Auto No.")
         {
             Clustered = true;
         }
-        key(PK2; RowNr)
+        key(PK2; "Row No.")
         {
 
         }
-        key(PK3; ClientNr)
+        key(PK3; "Client No.")
         {
 
         }

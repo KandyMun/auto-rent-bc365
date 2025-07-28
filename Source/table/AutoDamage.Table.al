@@ -1,15 +1,15 @@
-table 61006 "MAMA_AutoDamage"
+table 61106 "MAMA_AutoDamage"
 {
 
     fields
     {
-        field(1; AutoNr; Code[10])
+        field(1; "Automobile No."; Code[20])
         {
             Caption = 'Primary Key';
             ToolTip = '';
 
         }
-        field(2; RowNr; Code[10])
+        field(2; "Row No."; Code[20])
         {
             Caption = 'Primary Key';
             ToolTip = '';
@@ -31,11 +31,11 @@ table 61006 "MAMA_AutoDamage"
 
     keys
     {
-        key(PK1; AutoNr)
+        key(PK1; "Automobile No.")
         {
             Clustered = true;
         }
-        key(PK2; RowNr)
+        key(PK2; "Row No.")
         {
             Unique = true;
         }

@@ -1,23 +1,23 @@
-table 61001 "MAMA_AutoModel"
+table 61101 "MAMA_AutoModel"
 {
-    Caption = 'Auto Mark';
+    Caption = 'Auto Model';
 
     fields
     {
-        field(1; ModelCode; Code[10])
+        field(1; "Mark Code"; Code[20])
         {
-            Caption = 'Model Code';
-            ToolTip = 'Modelio identifikacinis kodas';
-            TableRelation = MAMA_AutoMark;
+            Caption = 'Markės Kodas';
+            ToolTip = 'Markės identifikacinis kodas';
+            TableRelation = MAMA_AutoMark."Mark Code";
 
         }
-        field(2; "Code"; Code[10])
+        field(2; "Model Code"; Code[20])
         {
             Caption = 'Kodas';
             ToolTip = 'Modelio identifikacinis kodas';
 
         }
-        field(3; Description; Text[30])
+        field(3; Description; Text[60])
         {
             Caption = 'Aprašymas';
             ToolTip = 'Nurodomas automobilio aprašas';
@@ -27,11 +27,11 @@ table 61001 "MAMA_AutoModel"
 
     keys
     {
-        key("ModelCode"; ModelCode)
+        key(PK1; "Model Code")
         {
             Clustered = true;
         }
-        key("Code"; Code)
+        key(PK2; "Mark Code")
         {
 
         }
